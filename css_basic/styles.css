@@ -6,3 +6,8 @@ body{
 main{
     display: flex;
 }
+main article{
+    background-color: rgb(232, 224, 224);
+    margin:20px 0;
+    border-radius: 5px;
+}
