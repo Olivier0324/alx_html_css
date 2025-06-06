@@ -84,6 +84,7 @@ nav ul a {
   border-radius: 22px;
   padding: 10px 20px;
   cursor: pointer;
+  color: #FFFFFF;
 }
 /* end of intro__text  */
 .pros h2 {
@@ -263,3 +264,139 @@ color: #C271FF;
  
 }
 /* end of tutorial styles */
+
+.membership {
+  padding: 90px 0;
+  background: #071629;
+  color: #fff;
+
+}
+.membership h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.membership h2 span {
+  color: #c271ff;
+}
+.membership__wrapper{
+  display: grid;
+  grid-template-columns: repeat(4,4fr);
+  gap: 2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.membership__wrapper div svg{
+  margin-bottom: 9rem;
+  display: block;
+}
+.membership__wrapper h3{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: .8rem;
+  margin-top: 2rem;
+   
+}
+.membership__wrapper p{
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.membership button{
+  background-color: #c271ff;
+  box-shadow: 0px 2px 20px 0px #00000080;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 162;
+  height: 44;
+  border-radius: 22px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #FFFFFF;
+  margin: auto;
+}
+/* End of membership styling */
+.faqs {
+  padding: 90px 0;
+}
+.faqs h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.faq__wrapper{
+  display: flex;
+  gap: 4rem;
+}
+.faq__row{
+  display: flex;
+  gap: 4rem; 
+  flex-direction: column;
+}
+.faq__card h3{
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0px;
+margin-bottom: 1rem;
+}
+.faq__card > div:nth-child(2){
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  opacity: 0.6;
+}
+/* end of F.A.Q section */
+.footer{
+background-color: #071629;
+padding: 90px 0;
+color: #fff;
+}
+.footer p{
+text-align: center;
+opacity: 0.6;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0px;
+
+}
+.footer__details{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer__icons{
+  display: flex;
+  gap: 2rem;
+}
+.footer__icons i{
+ padding: .8rem;
+ color: #071629;
+ background-color: #fff;
+ border-radius: 2rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-weight: 700;
+ font-size: 1.2rem;
+ cursor: pointer;
+
+}
