@@ -174,41 +174,92 @@ nav ul a {
   letter-spacing: 0px;
 }
 /* end of testmonials */
-.tutorials{
-    padding: 90px 0;
+.tutorials {
+  padding: 90px 0;
 }
 .tutorials h2 {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: 0px;
-    text-align: center;
-   margin-bottom: 40px;
-  }
-  .tutorials h2 span {
-    color: #c271ff;
-  }
-  .tutorial__container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
-  }
-  .tutorial__card-image-preview{
-    position: relative;
-  }
-  .tutorial__card-image-preview .play-img{
-    position: absolute;
-    z-index: 10;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-  }
-  .tutorial__card h3{
-    
-  }
-  .tutorial__card p{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.tutorials h2 span {
+  color: #c271ff;
+}
+.tutorial__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.tutorial__card {
+  cursor: pointer;
+}
+.tutorial__card-image-preview {
+  position: relative;
+}
+.tutorial__card-image-preview .play-img {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.tutorial__card h3 {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  padding: 0 1rem;
+  margin: 1rem 0 0.8rem 0;
+}
+.tutorial__card p {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  padding: 0 1rem;
 
-  }
-  .tutorial__card div{
+}
+.pro{
+  padding: 0 1rem;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.pro h4{
+  font-family: "Source Sans Pro";
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0px;
+color: #C271FF;
+;
 
-  }
+}
+.tutorial__card .profile__card__rating_duration {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+color: #C271FF;
+}
+.tutorial__card .profile__card__rating_duration p{
+  font-family: Source Sans Pro;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: right;
+}
+.tutorial__card .profile__card__rating_duration .rating {
+  display: flex;
+}
+.tutorial__card .profile__card__rating_duration .rating i{
+color: #C271FF;
+ 
+}
+/* end of tutorial styles */
