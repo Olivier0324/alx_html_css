@@ -1,0 +1,1 @@
+# Simile School website design using html and CSS
