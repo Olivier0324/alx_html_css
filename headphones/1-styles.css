@@ -74,6 +74,12 @@ text-transform: uppercase;
     text-align: center;
     margin-bottom: 6rem;
 }
+
+.section-header h3{
+    font-weight: 700;
+    font-size: var(--fs-md);
+    margin-bottom: 1rem;
+}
 .grid-row{
     display: grid;
     gap: 5rem;
@@ -88,9 +94,16 @@ text-transform: uppercase;
     flex-direction: column;
     gap: 1.5rem;
 }
+.card h4{
+    font-weight: 700;
+    font-size: var(--fs-sm);
+
+}
 .card-text{
     font-size: var(--fs-x-sm);
     text-align: center;
+    width:70%;
+    margin: 0 auto 0 auto;
 }
 /* end of utilities */
 .header{
