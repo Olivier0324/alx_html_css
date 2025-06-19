@@ -9,6 +9,7 @@
     --fs-lg:4.6rem;
     --fs-md:3.2rem;
     --fs-sm:1.6rem;
+    --fs-x-sm:1.4rem;
 }
 *::after,
 *::before,
@@ -16,8 +17,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'source-pro';
+    font-family: "source-pro";
     font-weight: 400;
+    color: var(--scondary-color);
 }
 html{
     font-size: 62.5%;
@@ -36,6 +38,9 @@ ul{
 button{
     display: block;
     border: none;
+}
+section{
+    padding: 8rem 0;
 }
 /* Utilties */
 .container-lg{
@@ -63,7 +68,30 @@ text-transform: uppercase;
     background-color: var(--primary-color);
     color: var(--text-color);
 }
-
+.section-header{
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.grid-row{
+    display: grid;
+    gap: 5rem;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.card-text{
+    font-size: var(--fs-x-sm);
+    text-align: center;
+}
 /* end of utilities */
 .header{
     min-height: 100vh;
@@ -157,7 +185,8 @@ text-transform: uppercase;
     margin-bottom: 2rem;
     
 }
-@media only screen and (max-width:56rem) {
+/* End of header */
+@media only screen and (max-width:48rem) {
     .logo-humberg-container{
         gap: 5rem;
     }
@@ -176,5 +205,8 @@ text-transform: uppercase;
     }
     .navbar__list.open_nav{
         height: auto;
+    }
+    .grid-row{
+        grid-template-columns: 1fr;
     }
 }
